@@ -19,7 +19,7 @@ h1{
 .choices{
     margin-bottom: 30px;
 }
-.choices{
+.choices button{
     font-size: 7.5rem;
     min-width: 160px;
     margin: 0 10px;
