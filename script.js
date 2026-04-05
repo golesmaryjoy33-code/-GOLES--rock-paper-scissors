@@ -15,13 +15,13 @@ function playGame(playerChoice){
      else{
         switch(playerChoice){
             case"rock":
-            (computerChoice==="scissors")? "YOU WIN!":"YOU LOSE!";
+            (computerChoice==="scissors")? "YOU WIN!🎉":"YOU LOSE!😔👎";
             break;
             case"paper":
-            (computerChoice==="rock")? "YOU WIN!":"YOU LOSE!";
+            (computerChoice==="rock")? "YOU WIN!🎉":"YOU LOSE!😔👎";
             break;
             case"scissors":
-            (computerChoice==="paper")? "YOU WIN!":"YOU LOSE!";
+            (computerChoice==="paper")? "YOU WIN!🎉":"YOU LOSE!😔👎";
             break;
         }
      }
