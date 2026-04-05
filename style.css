@@ -7,11 +7,7 @@ body{
     align-items: center;
     
 }
-.box{
-   
-    margin: auto;
-    border: 2px solid blue;
-}
+
 h1{
     font-size: 3.5rem;
     color:rgb(6, 111, 209);
