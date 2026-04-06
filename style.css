@@ -13,7 +13,13 @@ h1{
     color:rgb(6, 111, 209);
 }
 .choices{
+    width: 300px;
+    margin: 100px auto;
     margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #4f04a5;
+    border-radius: 10px;
+    box-shadow: #9072fa;
 }
 .choices button{
     font-size: 7.5rem;
