@@ -6,29 +6,29 @@ function playGame(playerDisplay){
     const choices = ['rock','paper','scissors'];
     const computerDisplay = choices[Math.floor(Math.random() * 3)];
 
-    let resultDisplay = "";
+    let resultText = "";
 
     if(playerDisplay === computerDisplay) {
-        resultDisplay= "It's a tie!☺️";
+        resultText = "It's a tie!☺️";
 
     }else if
         (
-            (playerDisplay === 'rock ' && computerDisplay === 'scissors') ||
+            (playerDisplay === 'rock' && computerDisplay === 'scissors') ||
             (playerDisplay === 'paper' && computerDisplay === 'rock') ||
             (playerDisplay === 'scissors' && computerDisplay === 'paper')
     
         ) 
             {
-            resultDisplay="You Win!🎉";
+            resultText="You Win!🎉";
             playerscore ++;
         }else{
-            resultDisplay="You Lose!😔";
+            resultText="You Lose!😔";
             computerscore ++;
 
         }
 
 
-    document.getElementById('result').innerText= `You chose ${playerDisplay}, Computer chose ${computerDisplay}. ${resultDisplay}`;
+    document.getElementById('result').innerText= `You chose ${playerDisplay}, Computer chose ${computerDisplay}. ${resultText}`;
     document.getElementById('score').innerText= `Player: ${playerscore} | Computer: ${computerscore}`;
 
 }
