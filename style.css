@@ -16,14 +16,14 @@ h1{
     margin: 100px auto;
     margin-bottom: 30px;
     padding: 20px 20px;
-    border: 2px solid #4f04a5;
+   
     border-radius: 30px;
     box-shadow: #9072fa;
     align-items:center;
 }
 .choices button{
     
-   
+
     font-size: 6.5rem;
     min-width: 160px;
     margin: 0 10px;
