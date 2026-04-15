@@ -9,7 +9,7 @@ function playGame(playerDisplay){
     let resultText = "";
 
     if(playerDisplay === computerDisplay) {
-        resultText = "It's a tie!☺️";
+        resultText = "It's a tie! ☺️";
 
     }else if
         (
@@ -19,11 +19,11 @@ function playGame(playerDisplay){
     
         ) 
             {
-            resultText="You Win!🎉";
-            playerScore ++;
+            resultText="You Win! 🎉";
+            playerScore++;
         }else{
-            resultText="You Lose!😔";
-            computerScore ++;
+            resultText="You Lose! 😔";
+            computerScore++;
 
         }
 
