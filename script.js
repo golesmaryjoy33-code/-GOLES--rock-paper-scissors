@@ -8,10 +8,10 @@ function playgame(playerDisplay){
 
     let resultDisplay = "";
 
-    if(playerDisplay === computerDisplay){
-        resultDisplay= "It's a tie!";
+    if(playerDisplay === computerDisplay) {
+        resultDisplay= "It's a tie!☺️";
 
-    }else if(
+    }else if
         (
             (playerDisplay === 'rock ' && computerDisplay === 'scissors') ||
             (playerDisplay === 'paper' && computerDisplay === 'rock') ||
