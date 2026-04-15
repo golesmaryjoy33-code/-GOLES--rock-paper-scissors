@@ -1,5 +1,5 @@
-let playerscore = 0;
-let computerscore = 0;
+let playerScore = 0;
+let computerScore = 0;
 
 
 function playGame(playerDisplay){
@@ -20,15 +20,15 @@ function playGame(playerDisplay){
         ) 
             {
             resultText="You Win!🎉";
-            playerscore ++;
+            playerScore ++;
         }else{
             resultText="You Lose!😔";
-            computerscore ++;
+            computerScore ++;
 
         }
 
 
     document.getElementById('result').innerText= `You chose ${playerDisplay}, Computer chose ${computerDisplay}. ${resultText}`;
-    document.getElementById('score').innerText= `Player: ${playerscore} | Computer: ${computerscore}`;
+    document.getElementById('score').innerText= `Player: ${playerScore} | Computer: ${computerScore}`;
 
 }
