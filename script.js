@@ -6,6 +6,8 @@ function playGame(playerDisplay){
     const choices = ['rock','paper','scissors'];
     const computerDisplay = choices[Math.floor(Math.random() * 3)];
 
+    playerDisplay = playerDisplay.toLowerCase();
+
     let resultText = "";
 
     if(playerDisplay === computerDisplay) {
