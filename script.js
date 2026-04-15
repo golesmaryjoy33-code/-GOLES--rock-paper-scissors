@@ -20,10 +20,10 @@ function playGame(playerDisplay){
         ) 
             {
             resultDisplay="You Win!🎉";
-            playerscore++;
+            playerscore ++;
         }else{
             resultDisplay="You Lose!😔";
-            computerscore++;
+            computerscore ++;
 
         }
 
