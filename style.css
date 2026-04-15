@@ -4,21 +4,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(111, 173, 243);
+    background-color: rgb(3, 53, 110);
 }
 
 h1{
     font-size: 3.5rem;
-    color:rgb(8, 66, 120);
+    color:#88c7f4;
+
+    text-shadow:
+        0 0 5px #00f,
+        0 0 10px #00f,
+        0 0 20px #00f,
+        0 0 40px #00f;
 }
+
 .choices{
     width: 700px;
     margin: 100px auto;
     margin-bottom: 30px;
     padding: 20px 20px;
-    border: 3px solid rgb(90, 151, 221);
+    border: 4px solid rgb(90, 151, 221);
     border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     box-shadow:0 0 10px #0673c0;
     display: flex;                
     justify-content: center;
@@ -43,8 +49,10 @@ h1{
 .result{
     font-size: 2.5rem;
     margin: 30px 0;
+    color: #88c7f4;
 }
 .score{
     font-size: 2.5rem;
     margin: 30px 0;
+    color: #88c7f4;
 }
