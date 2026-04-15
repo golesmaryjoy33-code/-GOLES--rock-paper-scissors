@@ -2,7 +2,7 @@ let playerscore = 0;
 let computerscore = 0;
 
 
-function playgame(playerDisplay){
+function playGame(playerDisplay){
     const choices = ['rock','paper','scissors'];
     const computerchoices = choice[Math.floor(Math.random() * 3)];
 
