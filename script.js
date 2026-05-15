@@ -30,7 +30,9 @@ function playGame(playerDisplay){
         }
 
 
-    document.getElementById('result').innerText= `You chose ${playerDisplay}, Computer chose ${computerDisplay}. ${resultText}`;
+    document.getElementById('result').innerText= `You chose ${playerDisplay}, Computer chose ${computerDisplay}.
+                                       
+    ${resultText}`;
     document.getElementById('score').innerText= `You: ${playerScore} | Computer: ${computerScore}`;
 
 }
