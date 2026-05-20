@@ -3,7 +3,7 @@ let computerScore = 0;
 
 
 function playGame(playerDisplay){
-
+    
     const choices = ['rock','paper','scissors'];
     const computerDisplay = choices[Math.floor(Math.random() * 3)];
 
@@ -38,4 +38,11 @@ function playGame(playerDisplay){
  //update score   
     document.getElementById("score").innerText= `You: ${playerScore} | Computer: ${computerScore}`;
 
+}
+//reset
+function resetGame(){
+    userScore=0;
+    computerScore=0;
+
+    document.getElementById("result").innerText=
 }
