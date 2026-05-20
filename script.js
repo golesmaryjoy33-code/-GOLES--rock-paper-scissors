@@ -10,7 +10,7 @@ function playGame(playerDisplay){
     playerDisplay = playerDisplay.toLowerCase();
 
     let resultText = "";
-    
+
 //determine winner
     if(playerDisplay === computerDisplay) {
         resultText = "It's a tie! ☺️";
