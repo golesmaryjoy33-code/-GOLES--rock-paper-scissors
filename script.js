@@ -39,10 +39,3 @@ function playGame(playerDisplay){
     document.getElementById("score").innerText= `You: ${playerScore} | Computer: ${computerScore}`;
 
 }
-//reset
-function resetGame(){
-    userScore=0;
-    computerScore=0;
-
-    document.getElementById("result").innerText=
-}
